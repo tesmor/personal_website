@@ -1,0 +1,48 @@
+body {
+  margin: 25px;
+  background-color: rgb(240,240,240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+head {
+  color: black;
+}
+p {
+  color: red;
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+title {
+    text-align: center;
+    color: red;
+}
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+  width: 100%;
+
+}
+footer.major:before, footer.major:after {
+  background: rgba(224, 224, 224, 0.75);
+  content: '';
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.container-fluid { 
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto
+}
+.text-center { 
+  text-align:center 
+} 

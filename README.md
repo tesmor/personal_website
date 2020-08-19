@@ -1,4 +1,5 @@
-# Personal Website
-## About me
+# personal_website
 
-This is my website
+---
+permalink: /index.html
+---

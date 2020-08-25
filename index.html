@@ -3,29 +3,46 @@
     
 <head>
     <meta charset="utd-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         Tessa Newman-Heggie
     </title>
     <link rel="stylesheet" type="text/css" href="assets/new_main.css">
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/0db9d903d3.js" crossorigin="anonymous"></script>
+    
+    <!-- JQuery -->
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
 
 </head>
 
 <body>
     <section>
         <!-- Navigation -->
+        
         <nav>
-            <!-- Logo/Home -->
-            <img src="assets/computer_icon.png" class="icon" alt="computer"/>
-            <!-- Menu -->
-            <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div class="menu">
+                <span class="toggle">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span> 
+                <div class="menu-content">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>My Work</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>         
+            </div>
         </nav>
+
         <!-- text -->
         <div class="text-container">
 
@@ -33,13 +50,14 @@
             <p>I'm Tessa</p>
             <p>I'm a Full-Stack Software Developer</p>
             <button class="contact-me-btn">Contact Me</button>
-            <button class="resume-btn">Resume</button>
+            <button class="resume-btn">Resume <i class="fas fa-download"> </i></button>
         </div>
     </section>
     <section>
         <!-- about -->
         <div class="about-container">
         <!-- image here -->
+        <img src="assets/headshot.JPG"/>
             <div class="about-text">
                 <p>About Me</p>
                 <p> Hello, I'm Tessa Newman-Heggie. </p>
@@ -48,22 +66,16 @@
                     Minnesota. 
                 </p>
                 <p> I have Bachelor's degrees in Computer Science 
-                    and Linguistics, and I also
+                    and Linguistics, and I also speak French fluently. 
                 </p> 
                 <p>
-                    speak French fluently. 
-                </p>
-                <p>
                     I have experience working with many programming languages 
-                    and frameworks, 
-                </p>
-                <p>
-                    but some of my favorites are Ruby, Swift, Scheme, 
-                    and C!
+                    and frameworks, but some of my favorites are Ruby, Swift, Scheme, 
+                    and Javascript!
                 </p>
                 <!-- buttons -->
                 <button class= "contact-me-btn" >Contact Me</button>
-                <button class= "resume-btn" >Resume</button>
+                <a href="assets/Resume.pdf" class="resume-btn" download>Resume <i class="fas fa-download"></i></a>
             </div>
         </div>
     </section>
@@ -82,7 +94,7 @@
                     <p class="heading">C Interpreter</p>
                     <p class="details">I built a complete C interpreter for Scheme 
                         (a functional programming language) with a partner as part of a 
-                        programming language course. 
+                        programming languages course. 
                     </p>
                     <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br>Github</button>
                 </div>
@@ -96,10 +108,9 @@
                 </div>
                 <div class="box-3">
                     <span>3</span>
-                    <p class="heading">C Interpreter</p>
-                    <p class="details">I built a complete C interpreter for Scheme 
-                        (a functional programming language) with a partner as part of a 
-                        programming language course. 
+                    <p class="heading">Maze Solver</p>
+                    <p class="details">I built a mini maze creator and solver in Java as part of a 
+                        data structures class.  
                     </p>
                     <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br>Github</button>
                 </div>
@@ -108,19 +119,67 @@
     </section>
     <!-- Contact -->
     <div class="contact-me">
-        <p>Interested in what I can bring to your project or team?</p>
-        <button>Email Me</button>
+        <p>GET IN TOUCH</p>
     </div>
+
+    <div> 
+        <!-- snake social-icons -->
+        <ul class="social-container"> 
+            <ul class="text-social-bar">
+                <li class="text-social-icon">
+                    <span>
+                        <a class="text-social-link" href="https://github.com/tnewmanheggie"> github.com/tnewmanheggie</a> 
+                    </span>
+                </li>
+                <li class="text-social-icon">
+                    <span>
+                        <a class="text-social-link" href="mailto:tnewmanheggie@gmail.com"> tnewmanheggie@gmail.com </a>
+                    </span>
+                </li>
+                <li class="text-social-icon">
+                    <span>
+                        <a class="text-social-link" href="https://www.linkedin.com/in/tnewmanheggie/">linkedin.com/in/tnewmanheggie</a>
+                    </span>
+                </li>
+            </ul>
+            <ul class="snake-social-bar">
+                <li class="snake-social-icon">
+                    <a class="snake-social-link" href="https://github.com/tnewmanheggie">
+                        <span class= "snake-social-span first-span"></span>
+                        <span class= "snake-social-span second-span"></span>
+                        <span class= "snake-social-span third-span"></span>
+                        <span class= "snake-social-span fourth-span"></span>
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="snake-social-icon">
+                    <a class="snake-social-link" href="mailto:tnewmanheggie@gmail.com">
+                        <span class= "snake-social-span first-span"></span>
+                        <span class= "snake-social-span second-span"></span>
+                        <span class= "snake-social-span third-span"></span>
+                        <span class= "snake-social-span fourth-span"></span>
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                </li>
+                <li class="snake-social-icon">
+                    <a class="snake-social-link" href="https://www.linkedin.com/in/tnewmanheggie/">
+                        <span class= "snake-social-span first-span"></span>
+                        <span class= "snake-social-span second-span"></span>
+                        <span class= "snake-social-span third-span"></span>
+                        <span class= "snake-social-span fourth-span"></span>
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </ul>
+    </div>
+
     <!-- footer -->
     <footer>
         <p></p>
         <p></p>
-        <div class="social icons">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fas fa-envelope-square"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <p class="copyright">Copyright by Tessa Newman-Heggie</p>
+
+        <p class="copyright"> <i class="fas fa-copyright"> </i>  Tessa Newman-Heggie</p>
     </footer>
     <!--social-attach-bar-->
     <div class="social">
@@ -134,5 +193,14 @@
             <i class="fab fa-linkedin"> </i>
         </a>
     </div>
+
+    <script>
+        $('.toggle').on('click', function(){
+            $('.menu').toggleClass('active');
+        });
+    </script>
+
 </body>
 </html>
+
+

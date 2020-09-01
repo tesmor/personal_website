@@ -34,10 +34,10 @@
                 </span> 
                 <div class="menu-content">
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>My Work</li>
-                        <li>Contact</li>
+                        <li><a href="www.tnewmanheggie.com">Home</a></li>
+                        <li><a href="#about-me">About</a></li>
+                        <li><a href="#my_work">My Work</a></li>
+                        <li><a href="#contact_me">Contact</a></li>
                     </ul>
                 </div>         
             </div>
@@ -50,10 +50,10 @@
             <p>I'm Tessa</p>
             <p>I'm a Full-Stack Software Developer</p>
             <button class="contact-me-btn">Contact Me</button>
-            <button class="resume-btn">Resume <i class="fas fa-download"> </i></button>
+            <button class="resume-btn"><a href="assets/Resume_Newman-Heggie.pdf" class="resume-btn" download>Resume <i class="fas fa-download"></i></a></button>
         </div>
     </section>
-    <section>
+    <section id="about_me">
         <!-- about -->
         <div class="about-container">
         <!-- image here -->
@@ -74,51 +74,66 @@
                     and Javascript!
                 </p>
                 <!-- buttons -->
-                <button class= "contact-me-btn" >Contact Me</button>
-                <a href="assets/Resume.pdf" class="resume-btn" download>Resume <i class="fas fa-download"></i></a>
+                <button class="contact-me-btn about-text-button">Contact Me</button>
+                <button class="resume-btn about-text-button"><a href="assets/Resume_Newman-Heggie.pdf" class="resume-btn" download>Resume <i class="fas fa-download"></i></a></button>
             </div>
         </div>
     </section>
-    <section>
         <!-- my work -->
-        <div class="work">
+        <div id="work" class="work">
             <!-- text -->
             <div class="work-text">
                 <p>My Work</p>
                 <p>Here are some of the projects that I'm proud of!</p>
             </div>
-            <!-- boxes -->
-            <div class="box-container">
-                <div class="box-1">
-                    <span>1</span>
-                    <p class="heading">C Interpreter</p>
-                    <p class="details">I built a complete C interpreter for Scheme 
-                        (a functional programming language) with a partner as part of a 
-                        programming languages course. 
-                    </p>
-                    <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br>Github</button>
-                </div>
-                <div class="box-2">
-                    <span>2</span>
-                    <p class="heading">Personal Website</p>
-                    <p class="details">I created a website to showcase the work I've done
-                        and some of the stuff I've built.  
-                    </p>
-                    <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br>Github</button>
-                </div>
-                <div class="box-3">
-                    <span>3</span>
-                    <p class="heading">Maze Solver</p>
-                    <p class="details">I built a mini maze creator and solver in Java as part of a 
-                        data structures class.  
-                    </p>
-                    <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br>Github</button>
-                </div>
-            </div>
         </div>
-    </section>
+            <!-- boxes -->
+            <div class="container-body">
+                <div class="box-container">
+                    <div class="card">
+                        <div class="heading-box">
+                            <img src="assets/card-background.jpg">
+                            <span>1</span>
+                            <h2>C Interpreter</h2>
+                        </div>
+                        <div class="details">
+                            <p>I built a complete C interpreter for Scheme 
+                                (a functional programming language) with a partner as part of a 
+                                programming languages course. 
+                            </p>
+                            <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br>View Github</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="heading-box">
+                            <img src="assets/card-background.jpg">
+                            <span>2</span>
+                            <h2>Portfolio</h2>
+                        </div>
+                        <div class="details">
+                            <p>I created a website to showcase the work I've done
+                                and some of the stuff I've built.  
+                            </p>
+                            <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br>Github</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="heading-box">
+                            <img src="assets/card-background.jpg">
+                            <span>3</span>
+                            <h2>Maze Solver</h2>
+                        </div>
+                        <div class="details">
+                            <p>I built a mini maze creator and solver in Java as part of a 
+                                data structures class.
+                            </p>
+                            <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br>Github</button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
     <!-- Contact -->
-    <div class="contact-me">
+    <div id="contact_me" class="contact-me">
         <p>GET IN TOUCH</p>
     </div>
 

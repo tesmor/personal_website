@@ -80,7 +80,7 @@ a{
 }
 
 section{
-    height:105vh;
+    height:115vh;
     background-color: #f0f0f0;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23dddddd' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 
@@ -215,27 +215,28 @@ nav {
 .menu .menu-content ul li a:hover, .menu .menu-content ul li a:active { text-decoration: none; color:black }
 
 
-.text-container p:nth-child(1){
+.text-container h1 p:nth-child(1){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:bold;
     color:#6d6d6d;
     font-size:22px;
 }
-.text-container p:nth-child(2){
+.text-container h1 p:nth-child(2){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:bold;
     letter-spacing: 1px;
     color:#1a1a1a;
     font-size:60px;
 }
-.text-container p:nth-child(3){
+.text-container h1 p:nth-child(3){
     font-family: myriad pro regular;
+    font-weight:normal;
     color:#403e3e;
     font-size:30px;
     line-height: 30px;
 
 }
-.text-container p{
+.text-container h1 p{
     line-height: 0px;
     margin: 45px 0px 25px;
 
@@ -322,7 +323,7 @@ nav {
     transition: ease-in-out 1s;
 }
 
-.about-text p:nth-child(1){
+.about-text h2{
     color: #403e3e;
     font-family: myriad pro;
     font-weight:bold;
@@ -330,7 +331,7 @@ nav {
     line-height: 30px;
     margin-left: 30px ;
 }
-.about-text p:nth-child(2){
+.about-text p:nth-child(1){
     color: #3e3d3d;
     font-family: myriad pro;
     font-weight:bold;
@@ -339,7 +340,7 @@ nav {
     margin-left: 30px ;
 
 }
-.about-text p:nth-child(n+3) {
+.about-text p:nth-child(n+2) {
     color: #4b4b4b;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:bold;
@@ -362,21 +363,21 @@ nav {
     width: 500px;
     margin:50px 0px;
 }
+.work-text h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #252525;
+    font-size: 30px;
+    line-height: 5px;
+}
 .work-text p:nth-child(1){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: #3e3d3d;
-    font-size: 30px;
-    line-height: 0px;
+    font-size: 15px;
+    line-height: 10px;
 }
 .work-text p:nth-child(2){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    color: #3e3d3d;
-    font-size: 15px;
-    line-height: 5px;
-}
-.work-text p:nth-child(3){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: #7e7d7d;
@@ -481,6 +482,10 @@ nav {
 
 }
 
+.view-git-btn:visited { text-decoration: none; color:rgb(0, 0, 0); }
+.view-git-btn:hover { text-decoration: none; color:rgb(0, 0, 0); }
+.view-git-btn:focus { text-decoration: none; color:rgb(0, 0, 0); }
+.view-git-btn:hover, .view-git-btn::active { text-decoration: none; color:black }
 
 .view-git-btn:hover{
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -519,7 +524,7 @@ nav {
     align-items: center;
 }
 
-.contact-me p{
+.contact-me h2{
     color: rgb(5, 5, 5);
     font-size: 40px;
     font-family: calibri;

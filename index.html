@@ -42,6 +42,14 @@
             </div>
         </nav>
 
+
+        <p>
+            X: <span id="x-value"></span>
+        </p>
+        <p>
+            Y: <span id="y-value"></span>
+        </p>
+
         <!-- Main Text -->
         <div class="text-container">
 
@@ -91,7 +99,7 @@
                 <div class="box-container">
                     <div class="card">
                         <div class="heading-box">
-                            <img src="assets/card-background.jpg">
+                            <div class="img"></div>
                             <span>1</span>
                             <h2>C Interpreter</h2>
                         </div>
@@ -105,7 +113,7 @@
                     </div>
                     <div class="card">
                         <div class="heading-box">
-                            <img src="assets/card-background.jpg">
+                            <div class="img"></div>
                             <span>2</span>
                             <h2>Portfolio</h2>
                         </div>
@@ -118,7 +126,7 @@
                     </div>
                     <div class="card">
                         <div class="heading-box">
-                            <img src="assets/card-background.jpg">
+                            <div class="img"></div>
                             <span>3</span>
                             <h2>Maze Solver</h2>
                         </div>
@@ -126,6 +134,18 @@
                             <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br></button>
                             <p>I built a mini maze creator and solver in Java as part of a 
                                 data structures class.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="heading-box">
+                            <div class="img"></div>
+                            <span>4</span>
+                            <h2>Console App</h2>
+                        </div>
+                        <div class="details">
+                            <button class="view-git-btn" href="#"><i class="fab fa-github"></i></br></button>
+                            <p>I built a photo console application in C that displays photo captions from a webpage.
                             </p>
                         </div>
                     </div>
@@ -208,9 +228,19 @@
         </a>
     </div>
 
-    <script>
+    <script type="text/javascript">
+        // same-site cookie for first-party contexts
+        document.cookie = 'cookie1=value1; SameSite=Lax';
+        // cross-site cookie for third-party contexts
+        document.cookie = 'cookie2=value2; SameSite=None; Secure';
+
         $('.toggle').on('click', function(){
             $('.menu').toggleClass('active');
+        });
+
+        window.addEventListener('mousemove', function(e){
+            document.getElementById('x-value').textContent = e.x;
+            document.getElementById('y-value').textContent = e.y;
         });
     </script>
 

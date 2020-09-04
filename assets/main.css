@@ -107,7 +107,7 @@
         width: 100%;
         height: 100%;
         line-height: 40px;
-        right: 20px;
+        right: 10px;
         text-align: center;
     }
 
@@ -117,8 +117,8 @@
 
     .menu .menu-content ul li {
         display:inline-block;
-        margin-left: 3px;
-        margin-right: 3px;
+        margin-left: 0px;
+        margin-right: 0px;
         color: #2d3235;
         transition: opacity 0.3s ease 0.3s;
         cursor:pointer;

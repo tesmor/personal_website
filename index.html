@@ -15,9 +15,9 @@
     
     <!-- JQuery -->
     <script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
 
 </head>
 
@@ -42,13 +42,7 @@
             </div>
         </nav>
 
-
-        <!-- <p>
-            X: <span id="x-value"></span>
-        </p>
-        <p>
-            Y: <span id="y-value"></span>
-        </p> -->
+        <!-- Sticky Bar to toggle colorful mode -->
 
         <!-- Main Text -->
         <div class="text-container">
@@ -57,23 +51,23 @@
                 <p>I'm Tessa</p>
                 <p>I'm a Full-Stack Software Developer</p>
             </h1>
-            <button class="contact-me-btn">Contact Me</button>
-            <button class="resume-btn"><a href="assets/Resume_Newman-Heggie.pdf" class="resume-btn" download>Resume <i class="fas fa-download"></i></a></button>
+            <a href="#contact_me" alt="contact me"><button class="contact-me-btn">Contact Me</button></a>
+            <button class="resume-btn"><a href="assets/Resume_Newman-Heggie.pdf" alt="download my resume"class="resume-btn" download>Resume <i class="fas fa-download"></i></a></button>
         </div>
     </section>
     <section id="about_me">
         <!-- about -->
         <div class="about-container">
         <!-- image -->
-        <img src="assets/headshot.JPG" alt="Tessa Newman-Heggie headshot" />
+        <img src="assets/headshot.JPG" alt="Tessa Newman-Heggie software developer headshot" />
             <div class="about-text">
                 <h2>About Me</h2>
                 <p> Hello, I'm Tessa Newman-Heggie. </p>
                 <p>
-                    I'm a full-stack web and mobile developer, originally from Saint Paul,
+                    I'm a full-stack web and mobile developer originally from Saint Paul,
                     Minnesota. 
                 </p>
-                <p> I have Bachelor's degrees in Computer Science 
+                <p> I have a Bachelor degree in Computer Science 
                     and Linguistics, and I also speak French fluently. 
                 </p> 
                 <p>
@@ -82,7 +76,7 @@
                     and Javascript!
                 </p>
                 <!-- buttons -->
-                <button class="contact-me-btn about-text-button">Contact Me</button>
+                <a href="#contact_me" alt="contact me"><button class="contact-me-btn about-text-button" href="#contact_me">Contact Me</button></a>
                 <button class="resume-btn about-text-button"><a href="assets/Resume_Newman-Heggie.pdf" class="resume-btn">Resume <i class="fas fa-download"></i></a></button>
             </div>
         </div>
@@ -119,7 +113,7 @@
                             <h2>Portfolio</h2>
                         </div>
                         <div class="details">
-                            <a href="https://github.com/tnewmanheggie/personal_website" alt="view project on github"><button class="view-git-btn"><i class="fab fa-github"></i></br></button></a>
+                            <a href="https://github.com/tnewmanheggie/personal_website" alt="view project on github"><button class="view-git-btn" alt="view project on github"><i class="fab fa-github"></i></br></button></a>
                             <p>I created a website to showcase the work I've done
                                 and some of the stuff I've built.  
                             </p>
@@ -132,7 +126,7 @@
                             <h2>Maze Solver</h2>
                         </div>
                         <div class="details">
-                            <a href="https://github.com/tnewmanheggie/MazeSolver" alt="view project on github"><button class="view-git-btn"><i class="fab fa-github"></i></br></button></a>
+                            <a href="https://github.com/tnewmanheggie/MazeSolver" alt="view project on github"><button class="view-git-btn" alt="view project on github"><i class="fab fa-github"></i></br></button></a>
                             <p>I built a mini maze creator and solver in Java as part of a 
                                 data structures class.
                             </p>
@@ -211,7 +205,6 @@
 
     <!-- footer -->
     <footer>
-        <p class="copyright"> <i class="fas fa-copyright"> </i>  Tessa Newman-Heggie</p>
     </footer>
     <!--fixed social bar-->
     <div class="social">

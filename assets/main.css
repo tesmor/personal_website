@@ -846,6 +846,7 @@
         outline:none;
         margin:0px 10px;
         cursor:pointer;
+        transform: scale(1.05);
 
     }
     .resume-btn{
@@ -861,6 +862,7 @@
         outline:none;
         margin:0px 10px;
         cursor:pointer;
+        transform: scale(1.05);
 
 
     }
@@ -903,34 +905,30 @@
         border-radius: 10%;
 
     }
-    /* .about-container img:hover{
-        filter: grayscale(0%);
-        transition: ease-in-out 1s;
-    } */
 
     .about-text h2{
         color: #403e3e;
-        font-family: myriad pro;
+        font-family: Calibri;
         font-weight:bold;
-        font-size: 23px;
+        font-size: 30px;
         line-height: 30px;
         margin-left: 30px ;
     }
     .about-text p:nth-child(1){
         color: #3e3d3d;
-        font-family: myriad pro;
-        font-weight:bold;
-        font-size: 14px;
-        line-height: 5px;
+        font-family: Calibri;
+        font-weight:normal;
+        font-size: 18px;
+        line-height: 10px;
         margin-left: 30px ;
 
     }
     .about-text p:nth-child(n+2) {
         color: #4b4b4b;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight:bold;
-        font-size: 16px;
-        line-height: 15px;
+        font-weight:normal;
+        font-size: 18px;
+        line-height: 17px;
         margin-left: 30px ;
 
     }
@@ -949,7 +947,7 @@
         margin:50px 0px;
     }
     .work-text h2{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: Calibri;
         font-weight: bold;
         color: #252525;
         font-size: 30px;
@@ -959,14 +957,14 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: bold;
         color: #3d3d3d;
-        font-size: 17px;
+        font-size: 22px;
         line-height: 10px;
     }
     .work-text p:nth-child(2){
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: Calibri;
         font-weight: bold;
         color: #464646;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 5px;
     }
 

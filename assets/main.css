@@ -250,7 +250,7 @@
         color: #3e3d3d;
         font-family: myriad pro;
         font-weight:bold;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 3px;
         margin-left: 15px ;
 
@@ -259,7 +259,7 @@
         color: #4b4b4b;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight:bold;
-        font-size: 11px;
+        font-size: 14px;
         line-height: 10px;
         margin-left: 15px ;
 
@@ -920,7 +920,7 @@
         color: #3e3d3d;
         font-family: myriad pro;
         font-weight:bold;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 5px;
         margin-left: 30px ;
 
@@ -929,7 +929,7 @@
         color: #4b4b4b;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight:bold;
-        font-size: 13px;
+        font-size: 16px;
         line-height: 15px;
         margin-left: 30px ;
 
@@ -959,14 +959,14 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: bold;
         color: #3d3d3d;
-        font-size: 15px;
+        font-size: 17px;
         line-height: 10px;
     }
     .work-text p:nth-child(2){
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: bold;
         color: #464646;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 5px;
     }
 
@@ -1039,6 +1039,8 @@
 
     .box-container .card .details{
         position:relative;
+        font-size: 17px;
+        font-family:  Calibri;
         margin-top: -140px;
         padding: 10px 15px;
         text-align:center;
@@ -1253,7 +1255,7 @@
         width: 100px;
         height: 50px;
         line-height: 50px;
-        font-size: 20px;
+        font-size: 22px;
         text-align: right;
         color: #262626;
         margin-right: 0px;

@@ -898,7 +898,6 @@
     .about-container img {
         height:450px;
         border-width: 15px;
-        /* filter: grayscale(100%); */
         transition:ease-in-out 1s;
         margin-right: 20px;
         margin-left: 20px;
